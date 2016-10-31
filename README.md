@@ -1,11 +1,14 @@
 # TurkishWordEmbeddings
 
 
-Pythons
-- Analogy.py: To answer analogy questions in fişe quesions_analogy3.txt
-- Average.py: To aplly averaging model
+Python codes
 - buildWordEmbedding.py : Too build Word embedding from texts in data folders
 - buildOffsets.py:  The word pairs in Pairs.csv are converted into offsets
+- Analogy.py: To answer analogy questions in fişe quesions_analogy3.txt
+- Average.py: To aplly averaging model
+- ann.py : Neural Network implementaiton 
+- Sgd.py :  stochastic gradient descent Implementation 
+
 
 
 Word Embedding based Semantic Relation Detection for Turkish Language
