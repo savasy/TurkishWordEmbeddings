@@ -1,4 +1,13 @@
 # TurkishWordEmbeddings
+
+
+Pythons
+- Analogy.py: To answer analogy questions in fişe quesions_analogy3.txt
+- Average.py: To aplly averaging model
+- buildWordEmbedding.py : Too build Word embedding from texts in data folders
+- buildOffsets.py:  The word pairs in Pairs.csv are converted into offsets
+
+
 Word Embedding based Semantic Relation Detection for Turkish Language
 
 We design a framework to automatically detect semantic relation for Turkish Language. The implementation is mostly done in Python Language. 
