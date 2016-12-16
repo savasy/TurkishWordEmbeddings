@@ -8,6 +8,7 @@ Python codes
 - Average.py: To aplly averaging model
 - ann.py : Neural Network implementaiton 
 - Sgd.py :  stochastic gradient descent Implementation 
+- Projection.py: It learns a matrix from hyponym-hypernym pairs, then it maps a gvien hypo to it hypernym. This code tests the approach with 10-fold cross validation. It uses hyp.csv set. 
 
 
 
