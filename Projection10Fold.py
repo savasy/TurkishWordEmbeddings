@@ -73,25 +73,12 @@ def clfPredict(xi, clfList):
 
 SIZE=300
 modelName="sg0HS0Size"+str(SIZE)
-#model=Word2Vec.load("models/"+modelName)
-
-
-"""
-
-"""
-path= "/media/savasy/e1c25d76-82c0-4d0b-bab6-ed427ad63556/home/savasy/Desktop/corpus/mtm/xmldata/"
-SIZE=300
-modelName="sg1HS0Size300"
-#model=Word2Vec.load("/media/savasy/6335-3634/Untitled Folder/tumSg0Dim300")
-model=Word2Vec.load(path +"models/"+modelName)
-#model=Word2Vec.load("/home/savasyildirim/Desktop/deepdene/tumSg0Dim300")
-
-
+model=Word2Vec.load("models/"+modelName)
 
 
 
 #pair list 
-infile="hypExtended.csv"
+infile="hyp.csv"
 
 
 # Training
