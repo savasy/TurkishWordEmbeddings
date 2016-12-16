@@ -20,7 +20,7 @@ We design a framework to automatically detect semantic relation for Turkish Lang
 We also provide Turkish Word Embeedings for over 900k words, leaving inflected words as it is, e.g. söyledi, arabaların, öğrencilere.
 
 
-There are two approaches implemeted here: One is classifiation and other is projection learning. We write two papers, their abstract as follows
+There are two approaches implemeted here: One is classifiation and other is projection learning. They are part of two papers  as their abstracts follow
 
 
 PAPER 1: Classification of Semantic Relation Pairs in Turkish Using Word Embeddings
