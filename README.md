@@ -9,8 +9,7 @@ Python codes
 - ann.py : Neural Network implementaiton 
 - Sgd.py :  stochastic gradient descent Implementation 
 - Projection.py: It learns a projeciton model from hyponym-hypernym pairs, then it maps a given hyponym to its hypernym. This code tests the approach with 10-fold cross validation. It uses hyp.csv file(that consist of pairs) and word embeddings. 
-
-
+- buildOffsetsforMorphemes.py: It takes the embeddings for root and word formation and build offsets. It uses pairsForMorpology.txt file and morphemes.txt file. Finally it classify the morphemes. 
 
 
 Word Embedding based Semantic Relation Detection for Turkish Language
@@ -42,4 +41,11 @@ by employing both continuous bag-of words (CBOW) and the skip-gram (SG) models  
 PAPER 2: Learning Turkish Hypernymy Using Word Embeddings
 
 Recently, Neural Network Language Models have been effectively applied to many types of Natural Language Processing (NLP) tasks. One popular type of task is discovery of semantic and syntactic regularities that support the researchers in building a lexicon. Word embedding representations are notably good at discovering such linguistic regularities. We argue that two supervised learning approaches based on word embeddings can be successfully applied to hypernym problem: Utilizing embedding offsets between word pairs and learning semantic projection to link the words. The offset-based model classifies offsets as hypernym or not. The semantic projection approach trains a semantic transformation matrix that ideally maps a hyponym to its hypernym. A semantic projection model can learn a projection matrix provided that there are a sufficient number of training word pairs. However, we argue that such models tend to learn is-a-particular hypernym relation rather than to generalize is-a relation. We conducted various experiments on a huge corpus in Turkish text. The embeddings are trained by applying both Continuous Bag-of Words and the Skip-Gram training models. The main contribution of the study is that the particular architecture is developed in order to apply word embedding approaches to Turkish language domain. We report that both projection model and offset classification model give promising and novel results for Turkish Language. 
+
+PAPER 3: Exploiting Word Embeddings to Explore Inflectional Morphology in Turkish Language
+
+Recently, unsupervisedly learned word embeddings have been successfully applied to many problems in NLP. Especially syntactic and semantic regularities can be implicitly encoded in word embeddings. In this study, we exploit word embeddings to explore inflectional morphology in Turkish Language. The language has rich and productive morphological structures such that one can generate theoretically infinite number of word forms from a nominal root. We argue that the offsets between the nominal root and its all formations encode morphological features and they can be discovered within supervised architectures. The goal is to disclose sequence of inflectional morphemes of a word through offsets. To reach the goal, the most popular embeddings algorithms were applied to huge amount of corpus to produce the embeddings and we showed that linear classifiers have a capacity of disclosing the inflectional morphemes through offsets. We present the study in detail with promising results and a variety of experiments in supervised architecture.  
+
+
+
 
